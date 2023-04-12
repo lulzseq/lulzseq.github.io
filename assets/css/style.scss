@@ -1,0 +1,26 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header {
+  display: none;
+}
+
+body {
+    background-color: #0d1117;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+    color: #dddddd !important;
+    border-bottom: 1px solid #999999 !important;
+}
+
+h1:first-of-type {
+    display: none
+}
+
+p, li {
+    color: #dddddd;
+}
